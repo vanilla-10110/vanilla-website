@@ -34,7 +34,9 @@
     "extra2 extra3 extra3"
     "footer footer footer";
     border-width: 7px; 
-    border-style: solid; 
+    border-radius: 21px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4); 
     /* border-image: url("https://files.catbox.moe/fmru60.gif") 6 fill round;  */
     height: 980px;
     margin: auto;
@@ -87,7 +89,9 @@
 .nav { 
     grid-area: nav; 
     border-width: 7px; 
+    border-radius: 21px;
     border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
     /* border-image: url("https://files.catbox.moe/jqcqeg.gif") 7 fill round; */
     padding: 1%;
     overflow: auto;
@@ -198,8 +202,10 @@ h1:hover  {
 
 .updates { 
     grid-area: updates; 
-    border-width:7px;
-    border-style:solid;
+    border-width: 7px; 
+    border-radius: 21px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
     /* border-image: url("https://files.catbox.moe/zfk7ik.gif") 7 fill round; */
     padding: 1%;
     -ms-overflow-style: none;
@@ -210,7 +216,9 @@ h1:hover  {
 .button { 
     grid-area: button; 
     border-width: 7px; 
-    border-style: solid; 
+    border-radius: 21px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4); 
     /* border-image: url("https://files.catbox.moe/kgeylk.gif") 7 fill round;  */
     overflow: auto;
     padding: 0.5%;
@@ -236,7 +244,9 @@ h1:hover  {
     -ms-overflow-style: none;
     scrollbar-width: none;
     border-width: 7px; 
-    border-style: solid; 
+    border-radius: 18px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4); 
     /* border-image: url("https://files.catbox.moe/kgeylk.gif") 7 fill round;  */
     overflow: auto;
 }
@@ -251,7 +261,9 @@ h1:hover  {
     -ms-overflow-style: none;
     scrollbar-width: none;
     border-width: 7px; 
-    border-style: solid; 
+    border-radius: 21px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4); 
     /* border-image: url("https://files.catbox.moe/kgeylk.gif") 7 fill round; */
     overflow: auto;
 }
@@ -270,9 +282,11 @@ h1:hover  {
 
 .footer { 
     grid-area: footer; 
-    border-width:7px;
-    border-style:solid;
-    background-color: rgba(255, 255, 255, 0.5);
+    border-width: 7px; 
+    border-radius: 21px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    /* background-color: rgba(255, 255, 255, 0.5); */
     /* border-image: url("https://files.catbox.moe/zfk7ik.gif") 7 fill round; */
 }
 
@@ -344,7 +358,9 @@ h1:hover  {
 .nav { 
     grid-area: nav; 
     border-width: 7px; 
+    border-radius: 21px;
     border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
     /* border-image: url("https://files.catbox.moe/jqcqeg.gif") 7 fill round; */
     padding: 1%;
     overflow: auto;
