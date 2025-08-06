@@ -50,12 +50,12 @@
 }
 
 .title{
-    color: white;
+    color: rgb(88, 201, 131);
     font-weight: bold;
     text-decoration: none;
     transition: ease-in-out 0.3s;
     font-size: 3vw;
-    filter: drop-shadow(1px 1px 0 rgb(202, 134, 160)) drop-shadow(-1px 1px 0 rgb(202, 134, 160)) drop-shadow(0 -1px 0 rgb(202, 134, 160)) drop-shadow(1px 0 rgb(202, 134, 160));
+    filter: drop-shadow(1px 1px 0 #105a37) drop-shadow(-1px 1px 0 #105a37) drop-shadow(0 -1px 0 #105a37) drop-shadow(1px 0 #105a37);
     margin-top: 14%;
     margin-left: 3%;
 }
@@ -93,7 +93,7 @@
 }
 
 .nav h1{
-    background-image: url('https://files.catbox.moe/khmhpt.gif');
+    /* background-image: url('https://files.catbox.moe/khmhpt.gif'); */
     font-size: 1vw;
     text-align: center;
     animation: jerky 1s infinite;
@@ -112,12 +112,12 @@ ul li{
 }
 
 a{
-    color: #FFDFEC;
+    color: #90caaf;
     font-weight: bold;
     text-decoration: none;
     transition: ease-in-out 0.3s;
     font-size: 1vw;
-    filter: drop-shadow(1px 1px 0 rgb(202, 134, 160)) drop-shadow(-1px 1px 0 rgb(202, 134, 160)) drop-shadow(0 -1px 0 rgb(202, 134, 160)) drop-shadow(1px 0 rgb(202, 134, 160));
+    filter: drop-shadow(1px 1px 0 #105a37) drop-shadow(-1px 1px 0 #105a37) drop-shadow(0 -1px 0 #105a37) drop-shadow(1px 0 #105a37);
 }
 
 a:hover{
@@ -143,15 +143,38 @@ a:hover{
     }
 
 h1{
-    color: #FFDFEC;
+    color: #90caaf;
     font-weight: bold;
     text-decoration: none;
     transition: ease-in-out 0.3s;
     font-size: 2.5vw;
     text-align: center;
     margin: 0;
-    filter: drop-shadow(1px 1px 0 rgb(202, 134, 160)) drop-shadow(-1px 1px 0 rgb(202, 134, 160)) drop-shadow(0 -1px 0 rgb(202, 134, 160)) drop-shadow(1px 0 rgb(202, 134, 160));
+    filter: drop-shadow(1px 1px 0 #105a37) drop-shadow(-1px 1px 0 #105a37) drop-shadow(0 -1px 0 #105a37) drop-shadow(1px 0 #105a37);
 }
+/* h1  {
+    margin: 2%;
+    font-family: sp;
+    font-size: 4vw;
+    background: linear-gradient(#256d22 50%, rgb(137, 168, 137));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bold;
+    filter: drop-shadow(0px 1.5px black) drop-shadow(0 -1.5px black) drop-shadow(1.5px 0 black) drop-shadow(-1.5px 0 black);
+    transition: ease-in-out 0.6s;
+}
+h1:hover  {
+    cursor: default;
+    background: linear-gradient(#3ba838 50%, rgb(104, 136, 104));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bold;
+    filter: drop-shadow(0px 1.5px black) drop-shadow(0 -1.5px black) drop-shadow(1.5px 0 black) drop-shadow(-1.5px 0 black);
+    -webkit-animation: pop 1s ease-in-out infinite alternate;
+    animation: pop 1s ease-in-out infinite alternate;
+    -moz-animation: pop 1s ease-in-out infinite alternate;
+} */
+
 
 .main { 
     grid-area: main; 
