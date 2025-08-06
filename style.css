@@ -11,7 +11,8 @@
         margin: auto;
         width: 40%;
         height: 1000px;
-        background-image: url('https://files.catbox.moe/3suxyf.png');
+        background-color: rgba(255, 255, 255, 0.5);
+        /* background-image: url('https://files.catbox.moe/3suxyf.png'); */
         border: 1px solid darkgray;
         border-radius: 15px;
         -moz-box-shadow: 0 0 25px #fff;
@@ -34,7 +35,7 @@
     "footer footer footer";
     border-width: 7px; 
     border-style: solid; 
-    border-image: url("https://files.catbox.moe/fmru60.gif") 6 fill round; 
+    /* border-image: url("https://files.catbox.moe/fmru60.gif") 6 fill round;  */
     height: 980px;
     margin: auto;
     padding: 1%;    
@@ -42,7 +43,8 @@
 
 .header { 
     grid-area: header; 
-    background-image: url('https://files.catbox.moe/sd7fyy.gif');
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-image: url('https://files.catbox.moe/sd7fyy.gif'); */
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid darkgray;
@@ -70,7 +72,8 @@
 
 .topscroll { 
     grid-area: topscroll; 
-    background-image: url('https://files.catbox.moe/mghfce.gif');
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-image: url('https://files.catbox.moe/mghfce.gif'); */
     border: 1px solid darkgray;
     border-radius: 15px;
 }
@@ -85,7 +88,7 @@
     grid-area: nav; 
     border-width: 7px; 
     border-style: solid;
-    border-image: url("https://files.catbox.moe/jqcqeg.gif") 7 fill round;
+    /* border-image: url("https://files.catbox.moe/jqcqeg.gif") 7 fill round; */
     padding: 1%;
     overflow: auto;
     -ms-overflow-style: none;
@@ -93,6 +96,7 @@
 }
 
 .nav h1{
+    
     /* background-image: url('https://files.catbox.moe/khmhpt.gif'); */
     font-size: 1vw;
     text-align: center;
@@ -178,7 +182,8 @@ h1:hover  {
 
 .main { 
     grid-area: main; 
-    background-image: url('https://files.catbox.moe/yttuxo.gif');
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-image: url('https://files.catbox.moe/yttuxo.gif'); */
     border: 1px solid darkgray;
     border-radius: 15px;
     padding: 1%;
@@ -195,7 +200,7 @@ h1:hover  {
     grid-area: updates; 
     border-width:7px;
     border-style:solid;
-    border-image: url("https://files.catbox.moe/zfk7ik.gif") 7 fill round;
+    /* border-image: url("https://files.catbox.moe/zfk7ik.gif") 7 fill round; */
     padding: 1%;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -206,7 +211,7 @@ h1:hover  {
     grid-area: button; 
     border-width: 7px; 
     border-style: solid; 
-    border-image: url("https://files.catbox.moe/kgeylk.gif") 7 fill round; 
+    /* border-image: url("https://files.catbox.moe/kgeylk.gif") 7 fill round;  */
     overflow: auto;
     padding: 0.5%;
     -ms-overflow-style: none;
@@ -220,7 +225,8 @@ h1:hover  {
     scrollbar-width: none;
     border: 1px solid darkgrey;
     border-radius: 15px;
-    background-image: url('https://files.catbox.moe/1mmmh1.gif');
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-image: url('https://files.catbox.moe/1mmmh1.gif'); */
     overflow: auto;
 }
 
@@ -231,7 +237,7 @@ h1:hover  {
     scrollbar-width: none;
     border-width: 7px; 
     border-style: solid; 
-    border-image: url("https://files.catbox.moe/kgeylk.gif") 7 fill round; 
+    /* border-image: url("https://files.catbox.moe/kgeylk.gif") 7 fill round;  */
     overflow: auto;
 }
 
@@ -246,7 +252,7 @@ h1:hover  {
     scrollbar-width: none;
     border-width: 7px; 
     border-style: solid; 
-    border-image: url("https://files.catbox.moe/kgeylk.gif") 7 fill round;
+    /* border-image: url("https://files.catbox.moe/kgeylk.gif") 7 fill round; */
     overflow: auto;
 }
 
@@ -257,7 +263,8 @@ h1:hover  {
     scrollbar-width: none;
     border: 1px solid darkgrey;
     border-radius: 15px;
-    background-image: url('https://files.catbox.moe/z2ycv0.gif');
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-image: url('https://files.catbox.moe/z2ycv0.gif'); */
     overflow: auto;
 }
 
@@ -265,7 +272,8 @@ h1:hover  {
     grid-area: footer; 
     border-width:7px;
     border-style:solid;
-    border-image: url("https://files.catbox.moe/zfk7ik.gif") 7 fill round;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* border-image: url("https://files.catbox.moe/zfk7ik.gif") 7 fill round; */
 }
 
 .footer marquee span{
@@ -337,7 +345,7 @@ h1:hover  {
     grid-area: nav; 
     border-width: 7px; 
     border-style: solid;
-    border-image: url("https://files.catbox.moe/jqcqeg.gif") 7 fill round;
+    /* border-image: url("https://files.catbox.moe/jqcqeg.gif") 7 fill round; */
     padding: 1%;
     overflow: auto;
     -ms-overflow-style: none;
